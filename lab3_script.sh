@@ -8,4 +8,6 @@ echo "Input a file name: "
 read fileName
 echo "Enter an expression: " 
 read exp
-grep $exp $fileName >> "email_results.txt"
+grep -c $"@" $"regex_practice.txt"
+grep -o $"303" $"regex_practice.txt"
+grep $"geocities.com" $"regex_practice.txt" >> "email_results.txt"
